@@ -1,5 +1,4 @@
 import axios from 'axios';
-import * as _ from 'lodash';
 import * as qs from 'querystring';
 import * as cheerio from 'cheerio';
 import * as  ExcelJS from 'exceljs';
@@ -54,7 +53,6 @@ async function FindScore(min: number, max: number, urlString: string, sheet: Wor
 
 const foo = async () => {
     const bar = await score();
-    // do smt with bar
 };
 
-foo()
+foo();
